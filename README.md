@@ -10,9 +10,9 @@
 
 ## General Information
 
-### 1. Introduction
+### [1. Introduction](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#intro)
 
-#### 1.1. Problem Statement
+#### [1.1. Problem Statement](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#problem)
 
 Bike-sharing systems provide bikes for shared use, allowing individuals to rent bikes for short periods, either for a fee or free of charge. BoomBikes, a US-based bike-sharing provider, has experienced a sharp decline in revenue due to the COVID-19 pandemic. To counter this, the company aims to create a strategic business plan to boost revenue once the lockdown is lifted and the economy recovers.
 
@@ -20,11 +20,11 @@ The company seeks to understand the factors that influence the demand for shared
 - Which variables are significant in predicting the demand for shared bikes.
 - How well these variables explain the fluctuations in bike demand.
 
-#### 1.2. Business Goal
+#### [1.2. Business Goal](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#goal)
 
 The objective is to develop a predictive model for bike demand using the available independent variables. This model will provide insights into the demand dynamics, enabling the management to fine-tune their business strategy to better meet customer needs and gain a competitive advantage in the market.
 
-#### 1.3. Dataset Overview
+#### [1.3. Dataset Overview](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#dataoverview)
 
 The dataset includes daily records of bike demand across the American market, capturing various factors such as weather conditions, seasonality, and user behavior. Key columns in the dataset include:
 
@@ -49,27 +49,26 @@ The dataset includes daily records of bike demand across the American market, ca
 - **registered**: Number of registered users who rented bikes
 - **cnt**: Total number of bike rentals (target variable)
 
-### 2. Data Understanding and Processing
+### [2. Data Understanding and Processing](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#data)
+    - 2.1. Loading the Data
+    - 2.2. Initial Exploration and Dataset Characteristics
+    - 2.3. Data Preprocessing
 
-#### 2.1. Loading the Data
-#### 2.2. Initial Exploration and Dataset Characteristics
-#### 2.3. Data Preprocessing
+### [3. Exploratory Data Analysis](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#eda)
 
-### 3. Exploratory Data Analysis
+### [4. Feature Engineering](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#feature)
 
-### 4. Feature Engineering
+### [5. Model Building and Feature Selection](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#model)
 
-### 5. Model Building and Feature Selection
+#### [5.1. Feature Selection Using Recursive Feature Elimination (RFE)](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#rfe)
+#### [5.2. Model Development and Comparison](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#models)
+#### [5.3. Selecting the Best Model](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#best_model)
+#### [5.4. Final Model](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#final_model)
+#### [5.5. Model Evaluation](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#model_evaluation)
+   - [5.5.1. Residual Analysis](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#residual_analysis)
+   - [5.5.2. Predicting for Test Data](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#predicting_test_data)
 
-#### 5.1. Recursive Feature Elimination (RFE) for 15 Features
-#### 5.2. Model Development and Comparison
-#### 5.3. Selecting the Best Model
-#### 5.4. Final Model
-#### 5.5. Model Evaluation
-   - **5.5.1. Residual Analysis**
-   - **5.5.2. Predicting for Test Data**
-
-## Conclusions
+## [Conclusions](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb#conclusions)
 
 1. **Model Performance**:
    - The model shows strong performance, with an R-squared score of 0.845 on the training data and 0.806 on the testing data. This indicates that the model explains approximately 84.5% of the variance in bike demand on the training set and 80.6% on the testing set, suggesting good generalization to unseen data.
