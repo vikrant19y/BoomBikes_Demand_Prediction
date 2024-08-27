@@ -76,7 +76,7 @@
         - Residual Analysis
         - Predicting for Test Data
 
-## [Conclusions](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
+## [Conclusions]
 
 1. ***Model Performance***
 - The model demonstrates strong performance with the following R-squared scores:
@@ -109,7 +109,38 @@
     - **Working Days:** **Coefficient:** **450.4622** — Higher demand on working days.
     - **Mondays:** **Coefficient:** **536.7014** — Increased demand on Mondays.
 
+## Insights and Recommendations
+1. ***Focus on Temperature Management***
+- **Insight:** Temperature significantly impacts bike rentals (**coef = 4160.0340**), indicating a preference for rentals during favorable temperatures.
+- **Recommendation:** Promote rentals during optimal temperature conditions through discounts or shaded routes.
 
+2. ***Optimize for Working Days***
+- **Insight:** Rentals increase on working days (**coef = 450.4622**).
+- **Recommendation:** Target promotions for non-working days and explore partnerships with companies to promote bike commuting.
+
+3. ***Seasonal Promotions***
+- **Insight:** Winter rentals increase (**coef = 492.2803**), while spring rentals decrease (**coef = -939.9930**).
+- **Recommendation:** Tailor promotions based on seasonal trends, such as offering winter gear or hosting spring cycling events.
+
+4. ***Weather-Responsive Pricing***
+- **Insight:** Clear weather boosts rentals (**coef = 513.9474**), while light snow or rain decreases them (**coef = -1663.1473**).
+- **Recommendation:** Implement dynamic pricing based on weather conditions.
+
+5. ***Strategic Weekday Focus***
+- **Insight:** Rentals are higher on Mondays (**coef = 536.7014**).
+- **Recommendation:** Focus marketing efforts on Mondays with weekday-specific deals.
+
+6. ***Monthly Campaigns***
+- **Insight:** September shows an increase in rentals (**coef = 497.1687**), while July shows a decrease (**coef = -668.0764**).
+- **Recommendation:** Leverage September's trend with marketing pushes and address the July decline with targeted campaigns.
+
+7. ***Yearly Growth Leverage***
+- **Insight:** The year 2019 positively impacts rentals (**coef = 2007.7272**).
+- **Recommendation:** Continue expansion efforts to sustain growth, including marketing and exploring new markets.
+
+8. ***Corporate and Institutional Partnership***
+- **Insight:** Working days positively impact rentals.
+- **Recommendation:** Partner with corporate offices, schools, and universities to promote bike rentals as a sustainable transport option.
 ## Technologies Used
 
 - Python - Version 3.12
