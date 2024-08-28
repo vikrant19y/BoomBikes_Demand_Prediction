@@ -64,6 +64,7 @@
 
 6. [**Feature Engineering**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
     - Created dummy variables for categorical features like season, Month, weekday and weather conditions to enable their use in the linear regression model.
+    - Rescaling the Features
 
 7. [**Model Building and Feature Selection**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
 
