@@ -10,7 +10,7 @@
 
 ## General Information
 
-1. **Problem Statement**
+1. [**Problem Statement**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
 
     - BoomBikes, a US-based bike-sharing provider, has experienced a significant revenue decline due to the COVID-19 pandemic. The company aims to develop a strategic business plan to boost revenue as the economy recovers and restrictions ease.
 
@@ -23,11 +23,11 @@
         - Which variables are significant in predicting the demand for shared bikes.
         - How well these variables explain the fluctuations in bike demand.
 
-2. **Business Goal**
+2. [**Business Goal**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
 
     - The goal is to develop a predictive model for bike demand using available variables. This model will offer insights into demand dynamics, allowing management to optimize business strategies, meet customer needs, and gain a competitive edge in the market.
 
-3. **Dataset Overview**
+3. [**Dataset Overview**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/day.csv)
 
     - The dataset includes daily records of bike demand across the American market, capturing various factors such as weather conditions, seasonality, and user behavior. Key columns in the dataset include:
 
@@ -52,20 +52,20 @@
         - **registered**: Number of registered users who rented bikes
         - **cnt**: Total number of bike rentals (target variable)
 
-4. **Data Understanding and Processing**
+4. [**Data Understanding and Processing**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
    1. Loading the Data
    2. Initial Exploration and Dataset Characteristics
        - Checking for missing or null values, and understanding the distribution of variables
    3. Data Preprocessing
         - Reviewing categorical variables and handling outliers.
 
-5. **Exploratory Data Analysis**
+5. [**Exploratory Data Analysis**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
     - Conducted univariate, bivariate, and multivariate analyses using visualizations like histograms, box plots, and correlation matrices to understand relationships between variables.
 
-6. **Feature Engineering**
+6. [**Feature Engineering**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
     - Created dummy variables for categorical features like season, Month, weekday and weather conditions to enable their use in the linear regression model.
 
-7. **Model Building and Feature Selection**
+7. [**Model Building and Feature Selection**](https://github.com/vikrant19y/BoomBikes_Demand_Prediction/blob/main/Bike_Renting_Model.ipynb)
 
     1. Feature Selection Using Recursive Feature Elimination (RFE)
         - RFE was utilized to identify the most significant features contributing to the predictive power of the model.
@@ -76,7 +76,7 @@
         - Residual Analysis
         - Predicting for Test Data
 
-## [Conclusions]
+## Conclusions
 
 1. ***Model Performance***
 - The model demonstrates strong performance with the following R-squared scores:
